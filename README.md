@@ -22,4 +22,4 @@ During development, many experiments were conducted on external platforms such a
 
 Screenshots of the version histories from these platforms are included in the `Development_Logs` folder to demonstrate the iterative development process and experimentation history.
 
-These logs show the progression of experiments leading to the final CTGAN implementation included in this repository.
+These logs show the progression of experiments leading to the final implementation included in this repository.
