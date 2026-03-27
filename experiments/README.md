@@ -15,8 +15,9 @@ evaluation scripts.
 
 | Notebook | Description |
 |----------|-------------|
-| `CTparam_1_.ipynb` | CTGAN hyperparameter sweep conducted on Google Colab. Varies epochs, batch size, embedding dimension, log frequency, and discriminator steps. |
-| `CTGAN_batch_dstep.ipynb` | Local re-run of CTGAN sweep focusing on batch size and discriminator steps. Complements CTparam_1_ with additional configurations. |
+| `CTparam_1_.ipynb` | CTGAN hyperparameter sweep. Varies epochs, network dimensions and log frequency. |
+| `CTGAN_batch_dstep.ipynb` | re-run of CTGAN sweep focusing on batch size and discriminator steps. |
+| `param_findiff_.ipynb` | FinDiff hyperparameter sweep. Varies epochs, MLP layers, diffusion steps, scaler type, and batch size. |
 
 ## Ablation Studies
 
@@ -43,7 +44,7 @@ evaluation scripts.
 | File | Description |
 |------|-------------|
 | `ctgan.zip` | Custom-modified CTGAN source code forked from the original library. Adds ratio parameter support for forced minority class generation. Sourced from the original SDV paper implementation. |
-| `tabsyn_.zip` | TabSyn model used in supplementary comparison experiments on a different dataset configuration. |
+| `tabsyn_.zip` | TabSyn model used in supplementary comparison experiments on a different dataset configuration. Also sourced from paper implementation |
 
 ## Data Split Structure
 
